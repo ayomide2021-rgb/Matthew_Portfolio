@@ -1,0 +1,204 @@
+@media (max-width: 960px) {
+    .hero-image>img {
+        width: 300px;
+    }
+    .hero-section {
+        width: 50%;
+    }
+    .hero {
+        padding: 120px 0px 50px 50px;
+        height: 100% !important;
+    }
+    .hero-image {
+        position: relative;
+        bottom: -50px;
+        right: -50px;
+    }
+    /* tools */
+    .tooltitle {
+        margin-bottom: 30px;
+        color: #c2cfff;
+    }
+    .toolset {
+        text-align: center;
+    }
+    .toolskill {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 30px;
+    }
+    .toolset-column {
+        flex-direction: column;
+        display: flex;
+    }
+    .toolset-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .toolskill>i {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    .toolskill>p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* phone menu */
+    .mobile-nav {
+        display: none;
+    }
+    /* desktop nav */
+    nav {
+        background-color: transparent;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    nav>div {
+        float: right;
+        padding: 30px;
+    }
+    nav>div>a {
+        text-decoration: none !important;
+        margin: 0px 50px 0px 0px;
+        font-size: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    nav>div>a:hover {
+        color: #88A2FF;
+    }
+    /* HERO- FIRST SECTION */
+    .hero {
+        background-size: cover;
+        padding: 120px 0px 50px 0px;
+        height: 100% !important;
+        justify-content: center;
+    }
+    .hero-section {
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        padding: 0px 40px;
+    }
+    .hero-image>img {
+        width: 110%;
+    }
+    .hero-image {
+        position: relative;
+        bottom: -50px;
+        text-align: center;
+        right: -0px;
+    }
+    /* skills */
+    .skillset {
+        height: 300px;
+        width: 80%;
+    }
+    .skillset:hover {
+        width: 100%;
+        color: white;
+    }
+    .skill>h3 {
+        width: 100%;
+    }
+    /* achieve */
+    .achievement {
+        background-size: 165%;
+        flex-direction: column;
+    }
+    .achieve {
+        padding: 10px 50px !important;
+    }
+    /* personality */
+    .bio {
+        width: 100%;
+        margin: 40px 35px !important;
+        text-align: center;
+    }
+    /* tools */
+    .tooltitle {
+        margin-bottom: 20px;
+        color: #c2cfff;
+    }
+    .toolset {
+        text-align: center;
+    }
+    .toolskill {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 20px;
+    }
+    .toolset-column {
+        flex-direction: column;
+        display: flex;
+    }
+    .toolset-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .toolskill>i {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    .toolskill>p {
+        font-size: 20px;
+    }
+    /* portfolio */
+    .swiper {
+        padding: 50px 0px 50px 30px !important;
+    }
+    .card {
+        width: 80%;
+    }
+    .product {
+        padding: 0px 0px !important;
+        margin: 0px !important;
+        width: 70%;
+    }
+    .contact-column {
+        margin: 20px 20px;
+    }
+}
+
+@media (max-width: 475px) {
+    /* tools */
+    .tooltitle {
+        margin-bottom: 25px;
+        color: #c2cfff;
+        font-size: 18px;
+    }
+    .toolset {
+        text-align: center;
+    }
+    .toolskill {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 15px;
+    }
+    .toolset-column {
+        flex-direction: column;
+        display: flex;
+    }
+    .toolset-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .toolskill>i {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .toolskill>p {
+        font-size: 15px;
+    }
+}

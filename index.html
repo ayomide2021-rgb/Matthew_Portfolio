@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="nav-mediaquiery.css">
+    <title>Matthew Portfolio</title>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0384ebf309.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image" href="">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="mobile-nav">
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#Home">Home</a>
+                <a href="#Projects">Projects</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="hamburger-menu">
+            <span style="font-size:40px;cursor:pointer; padding:20px; color:white; ; " onclick="openNav()"><i class="fa-solid fa-bars"></i> </span>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+
+    </div>
+
+    <nav class="desktop">
+        <div>
+            <a href="#Home">Home</a>
+            <a href="#Projects">Projects</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO PAGE -->
+    <div class="hero" id="Home">
+
+        <div class="hero-section">
+            <h4>Hello, I am</h4>
+            <h1>Oyeniran Matthew</h1>
+            <h3>Data Analyst || Data Scientist</h3>
+            <p>I'm a data analyst with a passion for transforming raw data into actionable insights. Experienced in data visualization, statistical analysis, and problem-solving.</p>
+            <div class="hero-link">
+                <a href="https://wa.me/2348106171072">HIRE ME</a>
+                <a href="/images/OYENIRAN MATTHEW IDOWU CV.pdf" target="_blank">DOWNLOAD CV</a>
+            </div>
+        </div>
+        <div class="hero-image"><img src="/images/matt.png" alt=""></div>
+
+    </div>
+
+    <!-- what I do? -->
+    <div class="skill">
+        <h1>My Skills</h1>
+        <h3>With my skills below, I am adept at transforming complex datasets into actionable insights</h3>
+        <div class="skillset-container">
+            <div class="skillset" style="background-image: linear-gradient(rgba(6, 1, 36, 0.8), rgba(2, 0, 14, 0.99)), url(images/statistical.png);">
+                <i class="fa-solid fa-magnifying-glass-chart"></i> <br>
+                <h5>statistical Analysis</h5>
+                <p>I have the ability to understand and apply statistical methods to draw meaningful insights from data.</p>
+            </div>
+
+            <div class="skillset" style="background-image: linear-gradient(rgba(6, 1, 36, 0.8), rgba(2, 0, 14, 0.99)), url(images/visualization.png);">
+                <i class="fa-solid fa-chart-pie"></i> <br>
+                <h5>Data Visualization</h5>
+                <p> I present data in a clear and insightful manner using charts, graphs, and other visual elements.</p>
+            </div>
+
+            <div class="skillset" style="background-image: linear-gradient(rgba(6, 1, 36, 0.7), rgba(2, 0, 14, 0.99)), url(images/programming.png);">
+                <i class="fa-solid fa-laptop-code"></i><br>
+                <h5>Programming Languages</h5>
+                <p>I have proficiency in languages like Python, R, or SQL for data manipulation and analysis.</p>
+            </div>
+
+            <div class="skillset" style="background-image: linear-gradient(rgba(6, 1, 36, 0.7), rgba(2, 0, 14, 0.99)), url(images/cleaningdata.png);">
+                <i class="fa-solid fa-circle-check"></i> <br>
+                <h5>Data Cleaning and Preprocessing</h5>
+                <p>I have the capability to clean and prepare data for analysis, handling missing values, outliers, etc.</p>
+            </div>
+
+            <div class="skillset" style="background-image: linear-gradient(rgba(6, 1, 36, 0.8), rgba(2, 0, 14, 0.99)), url(images/thinking.png);">
+                <i class="fa-solid fa-person-circle-question"></i> <br>
+                <h5>Critical Thinking</h5>
+                <p>I have the ability to think critically and ask the right questions to guide the analysis process</p>
+            </div>
+
+            <div class="skillset" style="background-image: linear-gradient(rgba(6, 1, 36, 0.8), rgba(2, 0, 14, 0.99)), url(images/solving.png);">
+                <i class="fa-solid fa-hands-asl-interpreting"></i> <br>
+                <h5>Problem-Solving</h5>
+                <p> I have to ability to Identify and solve complex problems using data-driven approaches.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- achievement -->
+    <div class="achievement">
+        <div class="achieve border-right">
+            <h2>200+</h2>
+            <p>Years Experience</p>
+        </div>
+
+        <div class="achieve border-right">
+            <h2>5+</h2>
+            <p>Project Completed</p>
+        </div>
+
+        <div class="achieve border-right">
+            <h2>10+</h2>
+            <p>Clients</p>
+        </div>
+
+        <div class="achieve">
+            <h2>9+</h2>
+            <p>Achievement</p>
+        </div>
+    </div>
+
+    <!-- who I am -->
+
+    <div class="personality" id="About">
+        <div class="pix"></div>
+        <div class="bio">
+            <h4>Meet Oyeniran Matthew</h4>
+            <p>I am a highly skilled data analyst with a strong mathematical background and a keen eye for high-quality data visualization, I deliver insightful reports and visualizations that drive informed decision-making. I am a collaborative team player,
+                strong communicator, and problem-solving enthusiast, bringing value to any team</p>
+            <a href="/images/OYENIRAN MATTHEW IDOWU CV.pdf" target="_blank"> Download CV </a>
+        </div>
+    </div>
+
+    <!-- Tool set -->
+
+
+    <div id="video-container">
+        <video autoplay muted loop plays-inline class="back-video" src="/images/analysisgif.mp4" type="analysisgif.mp4"></video>
+
+        <div class="overlays">
+            <div class="toolset">
+                <h1 class="tooltitle">My Expertise</h1>
+
+                <div class="toolset-row">
+
+                    <div class="toolset-column">
+
+                        <div class="toolskill">
+                            <i class="fa-brands fa-python"></i>
+                            <p>Python</p>
+                        </div>
+
+                        <div class="toolskill">
+                            <i class="fa-solid fa-square-poll-vertical"></i>
+                            <p>Power BI</p>
+                        </div>
+
+                        <div class="toolskill">
+                            <i class="fa-solid fa-file-excel"></i>
+                            <p>Excel & SPSS</p>
+                        </div>
+
+                    </div>
+
+                    <div class="toolset-column">
+
+                        <div class="toolskill">
+                            <i class="fa-brands fa-r-project"></i>
+                            <p>R language</p>
+                        </div>
+
+                        <div class="toolskill">
+                            <i class="fa-solid fa-database"></i>
+                            <p>SQL Database</p>
+                        </div>
+
+                        <div class="toolskill">
+                            <i class="fa-solid fa-brain"></i>
+                            <p>Machine learning</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- portfolio -->
+
+    <div class="swiper mySwiper" id="Projects">
+        <a href="https://github.com/Oyeniran20">
+            <h2 class="portfolio-title">My Portfolio</h2>
+        </a>
+
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+                <div class="col" id="product">
+                    <div class="card">
+                        <img src="images/powerbi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://github.com/Oyeniran20/PowerBI" class="work-done">
+                                <h5 class="card-title">POWERBI</h5>
+                                <p class="card-text">Check out my works!</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="col" id="product">
+                    <div class="card">
+                        <img src="images/python.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://github.com/Oyeniran20/Python" class="work-done">
+                                <h5 class="card-title">PYTHON</h5>
+                                <p class="card-text">Check out my works!</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="col" id="product">
+                    <div class="card">
+                        <img src="images/machinelearning.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://github.com/Oyeniran20/Machine-Learning" class="work-done">
+                                <h5 class="card-title">MACHINE LEARNING</h5>
+                                <p class="card-text">Check out my works!</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="col" id="product">
+                    <div class="card">
+                        <img src="images/excel.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://github.com/Oyeniran20/Excel-" class="work-done">
+                                <h5 class="card-title">EXCEL</h5>
+                                <p class="card-text">Check out my works!</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                "@1.50": {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+
+    <!-- contact section -->
+    <div class="contact-row" id="Contact">
+
+        <div class="contact-column">
+            <h3>Get in Touch!</h3> <br>
+            <p> With a robust mathematical background, I craft compelling reports and visuals that drive smart decisions. As a collaborative team player and problem-solving enthusiast, I bring a dynamic edge. Reach out, and let's create something extraordinary
+                together!
+            </p>
+        </div>
+
+        <div class="contact-column">
+            <h3>Contact Me</h3> <br>
+            <div><i class="fa-solid fa-phone"></i> 08106171072, 09050908860</div>
+            <div><i class="fa-solid fa-envelope"></i> oyeniranmatthew@gmail.com </div>
+            <div><i class="fa-solid fa-location-dot"></i> 9, Afolabi Shoyinka Crescent, Matogbun Road, Oke-aro, Ogun State</div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
